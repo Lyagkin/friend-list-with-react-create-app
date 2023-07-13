@@ -16,6 +16,13 @@ class App extends Component {
     this.state = {
       dataFriends: [
         {
+          name: "Ангелина Колягина",
+          raiting: 100,
+          increase: true,
+          reward: true,
+          id: "blinya",
+        },
+        {
           name: "Игорь Пинчук",
           raiting: 100,
           increase: true,
