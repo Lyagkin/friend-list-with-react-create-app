@@ -7,11 +7,15 @@ function StaffFilter({ turnAll, turnReward, turnRaiting, all, reward, raiting })
     { name: raiting, labelText: "Рейтинг выше 80", functionName: turnRaiting },
   ];
 
+  console.dir(window.outerWidth);
+
   const buttons = buttonList.map(({ name, labelText, functionName }) => {
     const active = name === true;
     const activeClass = active ? "btn-light" : "btn-outline-light";
+    const windowWidth = window.outerWidth;
+    const buttonSize = +windowWidth > 450 ? "btn-lg" : "btn-sm";
     return (
-      <button key={labelText} className={`btn ${activeClass} btn-lg`} type="button" onClick={functionName}>
+      <button key={labelText} className={`btn ${activeClass} ${buttonSize}`} type="button" onClick={functionName}>
         {labelText}
       </button>
     );

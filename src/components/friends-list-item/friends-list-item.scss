@@ -8,7 +8,7 @@
     line-height: 3.5rem;
     font-size: 2rem;
     cursor: pointer;
-    min-width: 55rem;
+    min-width: 30rem;
   }
   input {
     line-height: 3.5rem;
@@ -58,7 +58,47 @@
 }
 
 @media (max-width: 700px) {
-  .list-group-item span {
-    min-width:20rem;
+  .list-group-item {
+    span {
+      min-width:20rem;
+      font-size: 1.3rem;
+    }
+    input {
+      font-size: 1.3rem;
+    }
+    button {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.3rem;
+    }
+    .fa-star {
+      width: 2.5rem;
+      height: 2.5rem;
+      line-height: 2.6rem;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .list-group-item {
+    span {
+      min-width: 11rem;
+      font-size: 1rem;
+    }
+    input {
+      font-size: 1rem;
+    }
+    button {
+      width: 2rem;
+      height: 2rem;
+      font-size: 1rem;
+    }
+    .fa-star {
+      width: 2rem;
+      height: 2rem;
+      line-height: 2rem;
+      font-size: 1rem;
+    }
   }
 }
