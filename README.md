@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Проект - стартовый. Базовые операции по работе со свойствами, состоянием компонентов. Данные хранятся локально в проекте, на верхнем уровне приложения.
+
+Общее описание - можно:
+  -создавать пользователя (друга)
+  -удалять
+  -выделять в категории топ месяца, близкие друзья
+  -фильровать по характеристикам
+  -изменять количество баллов рейтинга - максимум 100.
+
+Использовались фукнциональные и классовые компоненты. Добавлена библиотека бутстрап, библиотека иконок. Для стилей - SCSS.
