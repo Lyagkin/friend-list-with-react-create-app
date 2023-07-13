@@ -1,0 +1,14 @@
+.search {
+  &-panel {
+    margin-top: 3rem;
+    padding: var(--padding);
+    background-color: var(--backgroundColor);
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+    color: var(--color);
+  }
+  &-input {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+}

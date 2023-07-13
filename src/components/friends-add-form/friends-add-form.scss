@@ -1,0 +1,18 @@
+.friends-add-form {
+  margin-top: 3rem;
+  padding: var(--padding);
+  background-color: var(--backgroundColor);
+  border-radius: var(--borderRadius);
+  box-shadow: var(--boxShadow);
+  color: var(--color);
+}
+
+.add-form {
+  margin-top: 2rem;
+  input {
+    width: 35rem;
+    margin-right: 2rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,11 @@
+.header {
+  padding: var(--padding);
+  background-color: var(--backgroundColor);
+  border-radius: var(--borderRadius);
+  color: var(--color);
+  box-shadow: var(--boxShadow);
+
+  .topFriend {
+    color: #ffd700;
+  }
+}

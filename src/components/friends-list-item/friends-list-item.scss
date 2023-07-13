@@ -1,0 +1,64 @@
+.list-group-item {
+  padding: 1.5rem 2rem;
+  border-bottom: .1rem solid var(--backgroundColor);
+  &:last-child {
+  border-bottom: none;
+  }
+  span {
+    line-height: 3.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    min-width: 55rem;
+  }
+  input {
+    line-height: 3.5rem;
+    font-size: 2rem;
+    text-align: center;
+    border: 0;
+  }
+  button {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: .3rem;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-cookie {
+    color: #e09f3e;
+  }
+  .btn-trash {
+    color: #e5383b;
+  }
+  .fa-star {
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: 1.6rem;
+    color: #ffd700;
+    transition: .3s all;
+    transform: translateX(3rem);
+    opacity: 0;
+  }
+}
+
+
+.list-group-item.like .fa-star {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.list-group-item.increase .list-group-item-label, .list-group-item.increase .list-group-item-input {
+  color: #e09f3e
+}
+
+.list-group-item.increase .btn-star {
+  color: #aeaeae;
+}
+
+@media (max-width: 700px) {
+  .list-group-item span {
+    min-width:20rem;
+  }
+}
