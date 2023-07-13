@@ -16,7 +16,7 @@ class App extends Component {
     this.state = {
       dataFriends: [
         {
-          name: "Ангелина Колягина",
+          name: "Ангелика Колягина",
           raiting: 100,
           increase: true,
           reward: true,
